@@ -2573,3 +2573,8 @@ transform: translate(1px);
   z-index: 1 !important;
   overflow: hidden;
 }
+
+.activityPanel_c48ade {
+	background-color: var(--background-secondary-alt);	
+}
+
