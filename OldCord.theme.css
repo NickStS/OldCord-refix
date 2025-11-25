@@ -2372,9 +2372,11 @@ body {
 }
 
 /* Fixes a bunch of buttons*/
-.button__201d5:not(.cta_a3a802, .colorRed__201d5) {
-	border: unset;
+button[role="button"].button_a22cb0,
+button[role="button"].button__201d5 {
+	border-radius: 8px !important;
 }
+
 .item_b3f026 {
 	transition: none !important;
 }
@@ -2577,4 +2579,5 @@ transform: translate(1px);
 .activityPanel_c48ade {
   background-color: var(--background-secondary-alt);
 }
+
 
