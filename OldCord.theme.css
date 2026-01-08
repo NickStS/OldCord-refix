@@ -4524,7 +4524,7 @@ html.visual-refresh {
 
 	/* go live modal v2 */
 	._8a031a135bfcb9ba-container._8a031a135bfcb9ba-size-xl:not(:has(._7f7273e3e762eb9d-confirmStep)) {
-		width: 400px;
+		width: 800px;
 	}
 
 	._8a031a135bfcb9ba-container._8a031a135bfcb9ba-size-xl {
@@ -5754,4 +5754,5 @@ html.density-default .caf372efc4d47562-item {
 ._5e434347c823b592-sidebarList,
 ._5e434347c823b592-sidebarListRounded {
 	width: 250px;
+
 }
