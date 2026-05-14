@@ -1,9 +1,9 @@
 /**
  * @name OldCord Fixed
- * @version 2.2-fix
+ * @version 2.3-fix
  * @author milbit, kinggamingyt, fix by FrCynda, refix by danger_videograph
  * @source https://github.com/FrCynda/NewerOldCord
- * @description Restores Discord's 2020 UI, fixed for 2025+.
+ * @description Restores Discord's 2020 UI, fixed for 2026+.
  */
 
 @import url("https://milbits.github.io/oldcord/src/components/redesign.css");
@@ -84,6 +84,7 @@
 code {
 	font-family: "Source Code Pro";
 }
+
 
 .eyebrow
 
@@ -2605,4 +2606,8 @@ div.sidebar_c48ade.theme-dark.images-dark {
 
 .winButtons_c38106 {
 	left: 25px;
+}
+
+[class*="container_"][class*="fitInAccount_"] {
+	display: none !important;
 }
