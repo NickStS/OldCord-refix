@@ -6,36 +6,36 @@
  * @description Restores Discord's 2020 UI, fixed for 2026+.
  */
 
-@import url("https://milbits.github.io/oldcord/src/components/redesign.css");
-@import url("https://milbits.github.io/oldcord/src/components/vars.css");
+ @import url("https://milbits.github.io/oldcord/src/components/redesign.css");
+ @import url("https://milbits.github.io/oldcord/src/components/vars.css");
 
-/* Старая палитра и цвета (blurple и т.д.) */
-@import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/color.css");
+ /* Старая палитра и цвета (blurple и т.д.) */
+ @import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/color.css");
 
-/* Старые аватары и иконки */
-@import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/imgs.css");
+ /* Старые аватары и иконки */
+ @import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/imgs.css");
 
-/* Старый профиль (2020) */
-@import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/profile.css");
+ /* Старый профиль (2020) */
+ @import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/profile.css");
 
-/* Старые эмодзи 🥺 */
-@import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/oldEmojis.css");
+ /* Старые эмодзи 🥺 */
+ @import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/oldEmojis.css");
 
-/* Старая раскраска контекстного меню */
-@import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/oldContext.css");
+ /* Старая раскраска контекстного меню */
+ @import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/oldContext.css");
 
-/* Показывает эффекты кастомизации профиля */
-@import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/showEffects.css");
+ /* Показывает эффекты кастомизации профиля */
+ @import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/showEffects.css");
 
-/* Показывает клантеги */
-@import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/showTags.css");
+ /* Показывает клантеги */
+ @import url("https://raw.githubusercontent.com/FrCynda/NewerOldCord/main/src/components/showTags.css");
 
-/* Правки интерфейса */
-:root {
-	--oldcord-tint: 210;
-	--oldcord-tint-intensity: 11.11;
-	--reaction-animation: 0;
-}
+ /* Правки интерфейса */
+ :root {
+ 	--oldcord-tint: 210;
+ 	--oldcord-tint-intensity: 11.11;
+ 	--reaction-animation: 0;
+ }
 
 
 /** Fonts*/
@@ -2112,8 +2112,8 @@ https://github.com/XYZenix/DTM-16
 	--bg-base-tertiary: #1e1f22;
 	--custom-channel-members-bg: #2b2d31;
 	--background-mod-subtle: #2b2d31;
-	--bg-brand: #5867ea;
-	--button-filled-brand-background: #5867ea;
+	--bg-brand: #5867ea ;	
+	--button-filled-brand-background: #5867ea ;
 	--header-secondary: #b9bbbe;
 	--channels-default: #8e9297;
 	--interactive-hover: #dcddde;
@@ -2158,17 +2158,17 @@ body {
 	--font-headline: gg sans;
 	--blurple: #5867ea;
 	--blurple-inverted: #ffffff;
-	--text-brand: var(--blurple);
-	--bg-brand: var(--blurple);
-	--brand-260: var(--blurple);
-	--brand-360: var(--blurple);
-	--brand-460: var(--blurple);
-	--brand-500: var(--blurple);
-	--brand-new-500: var(--blurple);
-	--brand-530: var(--blurple);
-	--brand-560: var(--blurple);
-	--brand-new-560: var(--blurple);
-	--brand-600: var(--blurple);
+	--text-brand: var(--blurple) ;
+	--bg-brand: var(--blurple) ;
+	--brand-260: var(--blurple) ;
+	--brand-360: var(--blurple) ;
+	--brand-460: var(--blurple) ;
+	--brand-500: var(--blurple) ;
+	--brand-new-500: var(--blurple) ;
+	--brand-530: var(--blurple) ;
+	--brand-560: var(--blurple) ;
+	--brand-new-560: var(--blurple) ;
+	--brand-600: var(--blurple) ;
 	--yellow-hover: #e19517;
 	--yellow-inverted: #fffbf4;
 	--yellow-inverted-active: #feedd1;
@@ -2178,205 +2178,189 @@ body {
 
 /** Fonts */
 @font-face {
-	font-family: "gg sans";
-	font-weight: 300;
-	src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsans.woff2) format("woff2");
+    font-family: "gg sans";
+    font-weight: 300;
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsans.woff2) format("woff2");
 }
 
 @font-face {
-	font-family: "gg sans";
-	src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsans.woff2) format("woff2");
+    font-family: "gg sans";
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsans.woff2) format("woff2");
 }
 
 @font-face {
-	font-family: "gg sans";
-	font-style: italic;
-	src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansitalic.woff2) format("woff2");
+    font-family: "gg sans";
+    font-style: italic;
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansitalic.woff2) format("woff2");
 }
 
 @font-face {
-	font-family: "gg sans";
-	font-weight: 500;
-	src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansmedium.woff2) format("woff2");
+    font-family: "gg sans";
+    font-weight: 500;
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansmedium.woff2) format("woff2");
 }
 
 @font-face {
-	font-family: "gg sans";
-	font-weight: 600;
-	src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsanssemibold.woff2) format("woff2");
+    font-family: "gg sans";
+    font-weight: 600;
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsanssemibold.woff2) format("woff2");
 }
 
 @font-face {
-	font-family: "gg sans";
-	font-weight: 700;
-	src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansbold.woff2) format("woff2");
+    font-family: "gg sans";
+    font-weight: 700;
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansbold.woff2) format("woff2");
 }
 
 @font-face {
-	font-family: "gg sans";
-	font-weight: 700;
-	font-style: italic;
-	src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansbolditalic.woff2) format("woff2");
+    font-family: "gg sans";
+    font-weight: 700;
+    font-style: italic;
+    src: url(https://github.com/GreenMonster362905/gg-sans-font/blob/main/ggsansbolditalic.woff2) format("woff2");
 }
 
-.radioBar__001a7 .radioIndicatorGroup__001a7:before {
-	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 28 28'%3E%3Cpath d='M3 0C1.34326 0 0 1.34277 0 3V21C0 22.6572 1.34326 24 3 24H21C22.6567 24 24 22.6572 24 21V3C24 1.34277 22.6567 0 21 0H3ZM3 1C1.89551 1 1 1.89551 1 3V21C1 22.1045 1.89551 23 3 23H21C22.1045 23 23 22.1045 23 21V3C23 1.89551 22.1045 1 21 1H3Z' stroke='' stroke-width='' fill='%2372767d' fill-rule='evenodd' clip-rule='evenodd'/%3E%3C/svg%3E");
-	position: relative
-}
-
-/* chat box */
-.scrollerSpacer__36d07 {
-	height: 30px;
-}
-
-.themedBackground__74017 {
-	background: none
-}
-
-.formWithLoadedChatInput_f75fb0 {
-	.channelTextArea_f75fb0 {
-		background: var(--background-primary) !important;
-	}
-}
-
-.channelTextArea__74017 {
-	border: unset;
-	border-radius: 4px;
-}
-
-.separator__49fc1 {
-	box-shadow: 0 1px 0 0 hsl(240 calc(1 *5.263%) 7.451% /.3), 0 1px 2px 0 hsl(240 calc(1 *5.263%) 7.451% /.3);
-}
-
-.header__49fc1 {
-	padding: var(--modal-vertical-padding) var(--modal-horizontal-padding);
-}
-
-.autocompleteAttached__6b0e0 {
-	left: 0;
-	right: 0;
-}
-
-.cooldownText_b21699 {
-	color: var(--font-primary) !important;
-}
-
-.base_b88801 {
-	left: 16px;
-	font-size: 14px;
-	font-weight: 500;
-	line-height: 24px;
-	resize: none;
-	align-items: center;
-	color: var(--text-normal);
-}
-
-/* jump to present bar */
-.jumpToPresentBar__0f481 {
-	bottom: 0;
-	border-radius: 8px 8px 0 0;
-	background-color: var(--background-accent);
-	opacity: .95 !important;
-	padding-bottom: 4px !important;
-	color: var(--white-500);
-
-	.barButtonBase__0f481 {
-		padding-left: unset;
-		padding: 0 12px;
+	.radioBar__001a7 .radioIndicatorGroup__001a7:before {
+		content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 28 28'%3E%3Cpath d='M3 0C1.34326 0 0 1.34277 0 3V21C0 22.6572 1.34326 24 3 24H21C22.6567 24 24 22.6572 24 21V3C24 1.34277 22.6567 0 21 0H3ZM3 1C1.89551 1 1 1.89551 1 3V21C1 22.1045 1.89551 23 3 23H21C22.1045 23 23 22.1045 23 21V3C23 1.89551 22.1045 1 21 1H3Z' stroke='' stroke-width='' fill='%2372767d' fill-rule='evenodd' clip-rule='evenodd'/%3E%3C/svg%3E");
+		position: relative
 	}
 
-	.button__201d5 {
-		flex: 0 0 auto;
-		font-weight: 600;
-		position: relative;
-		background: unset;
-		padding-bottom: 6px;
-
-		&:hover {
-			background-color: unset !important;
-		}
-
-		.contents__201d5:after {
-			content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 16'%3E%3Cpath d='M7 10L12 15 17 10'%3E%3C/path%3E%3C/svg%3E");
-			margin-left: 8px;
+	/* chat box */
+	.scrollerSpacer__36d07 {
+		height: 30px;
+	}
+	.themedBackground__74017 {
+		background: none
+	}
+	.formWithLoadedChatInput_f75fb0 {
+		.channelTextArea_f75fb0 {
+		    background: var(--background-primary) !important;
 		}
 	}
-}
+	.channelTextArea__74017 {
+		border: unset;
+		border-radius: 4px;
+	}
+	.separator__49fc1 {
+		box-shadow: 0 1px 0 0 hsl(240 calc( 1 *5.263%) 7.451% /.3), 0 1px 2px 0 hsl(240 calc( 1 *5.263%) 7.451% /.3);
+	}
+	.header__49fc1 {
+		padding: var(--modal-vertical-padding) var(--modal-horizontal-padding);
+	}
+	.autocompleteAttached__6b0e0 {
+		left: 0;
+		right: 0;
+	}
+	.cooldownText_b21699 {
+		color: var(--font-primary) !important;
+	}
+	.base_b88801 {
+	    left: 16px;
+	    font-size: 14px;
+	    font-weight: 500;
+	    line-height: 24px;
+	    resize: none;
+	    align-items: center;
+	    color: var(--text-normal);
+	}
+
+	/* jump to present bar */
+	.jumpToPresentBar__0f481 {
+		bottom: 0;
+	    border-radius: 8px 8px 0 0;
+	    background-color: var(--background-accent);
+	    opacity: .95 !important;
+	    padding-bottom: 4px !important;
+		color: var(--white-500);
+		.barButtonBase__0f481 {
+			padding-left: unset;
+			padding: 0 12px;
+		}
+		.button__201d5 {
+			flex: 0 0 auto;
+			font-weight: 600;
+			position: relative;
+			background: unset;
+			padding-bottom: 6px;
+			&:hover {
+				background-color: unset !important;
+			}
+			.contents__201d5:after {
+				content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 16'%3E%3Cpath d='M7 10L12 15 17 10'%3E%3C/path%3E%3C/svg%3E");
+				margin-left: 8px;
+			}
+		}
+	}
 
 
 /* Makes "add a server and discover icons green */
 
 .circleIcon__5bc7e {
-	color: var(--green);
+    color: var(--green);
 }
 
 
 /* removes padding on guild (clan) tags next to usernames */
 .text-xs\/semibold_cf4812 {
-	font-size: 0.75rem;
-	font-weight: 600;
-	color: var(--interactive-normal);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--interactive-normal);
 }
 
 /* Removes the sidebar when fullscreened in a livestream */
 .sidebar_c48ade.hidden_c48ade {
-	position: absolute !important;
+    position: absolute !important;
 }
 
 /* Fixes Forum colors (WIP) */
 .visual-refresh .mainCard_f369db {
-	background: var(--bg-overlay-4, #393c41);
-	border: 1px solid var(--border-subtle);
+    background: var(--bg-overlay-4, #393c41);
+    border: 1px solid var(--border-subtle);
 }
-
 .visual-refresh .container_faa96b.isOpen_faa96b {
-	background-color: #393c41;
+    background-color: #393c41 ;
 }
-
 .visual-refresh .container_faa96b:hover {
-	background-color: #393c41;
+    background-color: #393c41; 
 }
 
 
 /* Fixes "new channel" icon colors */
-.newChannel__599fa,
-.channelInfo_c69b6d {
-	background-color: var(--blurple) !important;
+.newChannel__599fa, .channelInfo_c69b6d {
+    background-color: var(--blurple) !important;
 	color: white;
-	border-radius: var(--radius-round) !important;
+    border-radius: var(--radius-round) !important;
 }
 
 .stack_dbd263 {
-	background: unset;
-	/* unsure if this breaks anything, remove if it does */
+    background: unset; /* unsure if this breaks anything, remove if it does */
 }
 
 /* Fixes "SPOILER" text of spoilered images */
 .obscureWarning__54ab5 {
-	color: white;
+    color: white;
 }
 
 
 
 /* Adds "Today at" to messages sent today */
 :is(.timestampInline_c19a55) time[aria-label^="Today at"] {
-	visibility: hidden;
+    visibility: hidden;
 }
 
 :is(.timestampInline_c19a55) time[aria-label^="Today at"]:before {
-	content: attr(aria-label);
-	visibility: visible;
+    content: attr(aria-label);
+    visibility: visible;
 }
 
 /* Removes separator between chat and channel bar */
 .panels_c48ade {
-	width: 241px !important;
-	border: none !important;
+    width: 241px !important;
+    border: none !important;
 }
 
 /* Fixes channel bar width */
-.base_c48ade .sidebar_c48ade>.sidebarList_c48ade {
-	width: 240px !important;
+.base_c48ade .sidebar_c48ade > .sidebarList_c48ade {
+    width: 240px !important;
 }
 
 button[role="button"].button_a22cb0,
@@ -2387,27 +2371,21 @@ button[role="button"].button__201d5 {
 .item_b3f026 {
 	transition: none !important;
 }
-
 :is(.sidebar__23e6b) .selected_b3f026.item_b3f026 {
 	background: var(--background-modifier-selected) !important;
 }
-
 :is(.sidebar__23e6b) .side_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026) {
 	background-color: var(--background-modifier-hover);
 }
-
 :is(.sidebar__23e6b) .selected_b3f026.item_b3f026:hover {
 	color: var(--text-primary);
 }
-
 .topPill_b3f026 .item_b3f026 {
-	border-radius: 4px;
-	;
-	margin: 0 8px;
-	padding: 2px 8px;
-	min-height: unset;
+	border-radius: 4px;;
+    margin: 0 8px;
+    padding: 2px 8px;
+    min-height: unset;
 }
-
 .searchBar__35e86 {
 	border-bottom: unset;
 	box-shadow: var(--elevation-low);
@@ -2417,73 +2395,69 @@ button[role="button"].button__201d5 {
 .inner_c0bea0 {
 	background-color: #111214;
 }
-
 .menuOverlay_ce8328 {
-	background-color: #ffffff17 !important;
+    background-color: #ffffff17 !important;
 }
 
 /* removes border of messages in search bar */
 .searchResult__02a39 {
-	border: solid 1px rgba(255, 255, 255, 0) !important;
+    border: solid 1px rgba(255, 255, 255, 0) !important;
 }
 
 /* fixes the background color of the "Message" box at the bottom of user profiles */
 .inlineContainer__74017 .themedBackground__74017 {
-	background: #ffffff17 !important;
+    background: #ffffff17 !important;
 }
 
 /* fix the coloring on the Report/Delete message button */
 .colorDanger_c1e9c4.focused_c1e9c4 {
-	color: var(--white);
-	background-color: var(--red);
+    color: var(--white);
+    background-color: var(--red);
 }
 
 /* fix the coloring of the OP tag */
 .botTagOP__82f07 {
-	color: var(--white) !important;
-	margin-top: .2em !important;
+  color: var(--white) !important;
+  margin-top: .2em !important;
 }
 
 /* fixes "add server" and "discover" buttons */
 
 .circleIconButton__5bc7e {
-	width: 50px !important;
-	height: 50px !important;
-	transform: translate(0px, 6px);
+    width: 50px!important;
+    height: 50px !important;
+    transform: translate(0px, 6px);
 }
-
-.discoveryIcon_ef3116 {
-	transform: translate(0px, 9px);
+.discoveryIcon_ef3116{
+    transform: translate(0px, 9px);
 }
 
 /* background color of embedded links with rounded corners on the right side */
 .grid__623de {
-	background-color: #2a2c30;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
+    background-color: #2a2c30;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 /* pinned messages */
 .header__45690 {
-	background: var(--scrollbar-auto-track) !important;
+    background: var(--scrollbar-auto-track) !important;
 }
-
 .messagesPopout__45690 {
-	background: var(--scrollbar-auto-track) !important;
+    background: var(--scrollbar-auto-track) !important;
 }
 
 /* removes user list left border */
 .container_c8ffbb {
-	border-left: none !important;
+    border-left: none !important;
 }
 
 /* inbox tab */
 .channelHeader__35a7e {
-	background-color: transparent !important;
+    background-color: transparent !important;
 }
-
 .resultsGroup__56fec {
-	background-color: var(--scrollbar-thin-thumb) !important;
+    background-color: var(--scrollbar-thin-thumb) !important;
 }
 
 .scroller__2692d,
@@ -2492,116 +2466,109 @@ button[role="button"].button__201d5 {
 .emptyScroller__2692d,
 .emptyContainer_a54d1d,
 .emptyContainer__4a7f0 {
-	background-color: rgb(44, 46, 51) !important;
+  background-color: rgb(44, 46, 51) !important;
 }
 
 
 /* fix search bar */
-.searchAnswer_bd8186,
-.searchFilter_bd8186 {
-	transform: translateY(-px) !important;
-	height: 20px !important;
-	font-size: 1em !important;
+.searchAnswer_bd8186, .searchFilter_bd8186 {
+  transform: translateY(-px) !important;
+  height: 20px !important;
+  font-size: 1em !important;
 }
-
 .search__97492 .DraftEditor-root .public-DraftStyleDefault-block span {
-	display: inline-block;
-	/* required for transform to take effect */
-	transform: translateY(-0.5px) !important;
+  display: inline-block; /* required for transform to take effect */
+  transform: translateY(-0.5px) !important;
 }
-
 /* Base reset */
 .tab_ab6641,
 .selected_b3f026 {
-	background: none !important;
-	box-shadow: none !important;
-	border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 /* Base tab styling */
 .tab_ab6641 {
-	position: relative;
-	overflow: visible !important;
-	z-index: 0;
+  position: relative;
+  overflow: visible !important;
+  z-index: 0;
 }
 
 .tab_ab6641::before {
-	content: "";
-	position: absolute;
-	top: 46px;
-	left: -10px;
-	right: -10px;
-	height: 1px;
-	background: var(--blurple);
-	z-index: -1;
-	opacity: 0;
+  content: "";
+  position: absolute;
+  top: 46px;
+  left: -10px;
+  right: -10px;
+  height: 1px;
+  background: var(--blurple);
+  z-index: -1;
+  opacity: 0;
 }
 
 .tab_ab6641.selected_b3f026::before {
-	opacity: 1;
-	transition: opacity 0.5s ease-in-out !important;
-	/* only transition when selected */
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out !important; /* only transition when selected */
 }
 
 
 /* user profile card */
-.root__24502,
-.outer_c0bea0 {
-	background-color: transparent !important;
+.root__24502, .outer_c0bea0 {
+  background-color: transparent !important;
 }
 
 /* makes server card in mentions tab non transparent */
 .channelHeader__35a7e {
-	background-color: var(--background-secondary) !important;
+    background-color: var(--background-secondary) !important;
 
 }
-
 svg.icon__2ea32:nth-of-type(3) path:nth-of-type(2) {
-	color: red;
+  color: red;
 }
 
 
 /* remove black outline on right side on channel side bar */
 div.sidebar_c48ade.theme-dark.images-dark {
-	transform: translate(1px);
+transform: translate(1px);
 }
 
 
 /* fix color of Message Bar */
 .scrollableContainer__74017 {
-	background-color: rgba(255, 255, 255, 0.048);
+  background-color: rgba(255, 255, 255, 0.048);
 
 }
 
 /* Фикс съехавшей кнопки закрытия */
 [class^="winButtonClose"] {
-	position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	z-index: 1000 !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  z-index: 1000 !important;
 }
 
 /* Фикс наложения каналов */
 [class*="containerDefault"] {
-	z-index: 1 !important;
-	position: relative !important;
-	overflow: visible !important;
+  z-index: 1 !important;
+  position: relative !important;
+  overflow: visible !important;
 }
 
 /* Фикс всплывающих оверлеев */
 [class*="layer"] {
-	z-index: 2 !important;
+  z-index: 2 !important;
 }
 
 /* Фикс выравнивания боковой панели */
 [class*="sidebar"] {
-	position: relative !important;
-	z-index: 1 !important;
-	overflow: hidden;
+  position: relative !important;
+  z-index: 1 !important;
+  overflow: hidden;
 }
 
 .activityPanel_c48ade {
-	background-color: var(--background-secondary-alt);
+  background-color: var(--background-secondary-alt);
 }
 
 .winButtons_c38106 {
@@ -2610,4 +2577,61 @@ div.sidebar_c48ade.theme-dark.images-dark {
 
 [class*="container_"][class*="fitInAccount_"] {
 	display: none !important;
+}
+
+/* Fix toolbar в transparent-шапке стрима — прижать "Показать чат" к углу */
+html.visual-refresh .transparent__9293f .toolbar__9293f.toolbar__9293f {
+	margin-left: auto !important;
+	margin-right: 10px !important;
+}
+
+/* Поднять trailing-иконки (📥 ❓ 🛠️) в верхний правый угол к ─ □ ✕ */
+.bar_c38106 .trailing_c38106 {
+	position: fixed !important;
+	top: -5px !important;
+	right: 0 !important;
+	z-index: 200 !important;
+	height: 24px !important;
+	display: flex !important;
+	align-items: center !important;
+	gap: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* Вернуть winButtons (─ □ ✕) в нормальный поток flex внутри trailing */
+.bar_c38106 .trailing_c38106 .winButtons_c38106 {
+	position: static !important;
+	top: auto !important;
+	bottom: auto !important;
+	right: auto !important;
+	left: auto !important;
+	display: flex !important;
+	align-items: center !important;
+	height: 24px !important;
+}
+
+/* Trailing-иконки (📥 ❓ 🛠️) — ровный размер, выравнивание по высоте с winButtons */
+.bar_c38106 .trailing_c38106 .clickable__81391,
+.bar_c38106 .trailing_c38106 .iconWrapper__9293f {
+	width: 28px !important;
+	height: 24px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border-radius: 0 !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+}
+.bar_c38106 .trailing_c38106 .iconWrapper__9293f .icon__9293f,
+.bar_c38106 .trailing_c38106 .iconWrapper__9293f svg,
+.bar_c38106 .trailing_c38106 .clickable__81391 svg {
+	width: 16px !important;
+	height: 16px !important;
+	transform: none !important;
+}
+
+/* ✕ закрытия чата — убрать резерв под trailing и прижать к правому краю */
+html.visual-refresh .toolbar__9293f.toolbar__9293f {
+	margin-right: 8px !important;
 }
