@@ -41,4 +41,4 @@ A fixed version of the OldCord theme that preserves Discord’s classic UI with 
 2. Paste the following in the QuickCSS box:
 
 ```css
-@import url("https://raw.githubusercontent.com/NickStS/OldCord-refix/main/OldCord.theme.css");
+https://raw.githubusercontent.com/NickStS/OldCord-refix/main/OldCord.theme.css
