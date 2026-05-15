@@ -2631,6 +2631,20 @@ html.visual-refresh .transparent__9293f .toolbar__9293f.toolbar__9293f {
 	transform: none !important;
 }
 
+/* Убрать фон-плитку у audio-кнопок (микрофон, наушники) в нижней панели */
+[class*="audioButtonParent"] [class*="plated_"],
+[class*="audioButtonParent"] [class*="plateMuted_"],
+[class*="audioButtonWithMenu"][class*="plated_"],
+[class*="audioButtonWithMenu"][class*="plateMuted_"] {
+	background: transparent !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+[class*="audioButtonParent"] [class*="redGlow_"] {
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
 /* ✕ закрытия чата — убрать резерв под trailing и прижать к правому краю */
 html.visual-refresh .toolbar__9293f.toolbar__9293f {
 	margin-right: 8px !important;
