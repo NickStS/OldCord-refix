@@ -4,14 +4,6 @@ A fixed version of the OldCord theme that preserves Discord’s classic UI with 
 
 ---
 
-## What has been fixed
-
-- 🛠 Fixed the **Discord close icon** — now displays correctly without glitches.
-- 📚 Resolved **channel overlapping** in the sidebar — channels no longer overlap each other.
-- 🏷 Added **clan tags display** next to usernames in voice channels and chats for users who have them set.
-
----
-
 ## Installation
 
 ### 🚮 BetterDiscord
