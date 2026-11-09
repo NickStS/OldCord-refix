@@ -4874,12 +4874,26 @@ html.visual-refresh {
 		.horizontal_hkRWAH>.flex_hkRWAH:last-child,
 		.horizontal_hkRWAH>.flexChild_hkRWAH:last-child {
 			margin-top: -5px;
+
 		}
 
 		.headerDescription_vPsX0I {
 			color: var(--text-default) !important;
 			margin-top: -1px;
 		}
+	}
+
+	.inner_9U6LUN {
+		height: 35px;
+	}
+
+	.container_9U6LUN>.alignCenter_HjOfxu {
+		width: 290px !important;
+		height: 43px !important;
+	}
+
+	.clickablePing_4LJE6I {
+		padding-left: 3px !important;
 	}
 
 	.modalSize_ievAZy {
