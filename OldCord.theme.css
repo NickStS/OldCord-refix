@@ -8189,6 +8189,9 @@ svg.icon__2ea32:nth-of-type(3) path:nth-of-type(2) {
 
 }
 
-svg[aria-describedby="_r_2fm_"] {
-	display: none;
+div[class^="iconGroup_"]>svg:has(> path[d^="M3.86 8.86c1.78"]),
+[class*="experimentOverlayTitle_"]>svg:has(> path[d^="M3.86 8.86c1.78"]),
+[class*="experimentOverlayTitle_"]:has(> svg:only-child > path[d^="M3.86 8.86c1.78"]) {
+	display: contents !important;
+	display: none !important;
 }
